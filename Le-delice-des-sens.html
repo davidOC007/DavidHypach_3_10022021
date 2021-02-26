@@ -12,6 +12,7 @@
     </head>
 
     <body>
+        <div id="bloc_page">
         <!-- header -->
     <header class="header">
         <div class="header__arrow"><a href="index.html"><i class="fas fa-arrow-left"></i></a></div>
@@ -37,110 +38,112 @@
             <h3 class="step__title">Entrées</h3>
 
 
-            <article class="dish">
+            <article class="dish slide-1">
                 <div class="dish__desc">
                     <h4 class="dish__title">Tartare de thon</h4> 
                     <p class="dish__subtitle">Assaisonné au yuzu</p>
                 </div>
-                <div class="dish__price">25€</div>
-               <!-- <div class="check">
-                    <span><i class="fas fa-check-circle fa-2x"></i></span>
-                </div>
-                -->
+                <p class="dish__price">25€</p>
+                        <button class="dish__check">
+                            <i class="fas fa-check-circle"></i>
+                        </button>
             </article>
 
-                <article class="dish">
+                <article class="dish slide-2">
                     <div class="dish__desc">
                         <h4 class="dish__title">Bouchée de homard croustillant</h4> 
                         <p class="dish__subtitle">Et sa farandole de petits légumes</p>
                     </div>
-                        <div class="dish__price">35€</div>
-                        <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+                    <p class="dish__price">35€</p>
+                    <button class="dish__check">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
                 </article>
 
-                <article class="dish">
+                <article class="dish slide-3">
                     <div class="dish__desc">
                         <h4 class="dish__title">Velouté de cèpes</h4> 
                         <p class="dish__subtitle">Aux truffes</p>
                     </div>
-                        <div class="dish__price">20€</div>
-                    <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+                    <p class="dish__price">20€</p>
+                    <button class="dish__check">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
                 </article>
         </section>
 
         <section class="step">
             <h3 class="step__title">Plats</h3>
-            <article class="dish">
+            <article class="dish slide-1">
                 <div class="dish__desc">
                     <h4 class="dish__title">Poulet rôti aux herbes de provence</h4> 
                     <p class="dish__subtitle">Et sa crème de truffe</p>
                 </div>
-                <div class="dish__price">40€</div>
-                    <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+                <p class="dish__price">40€</p>
+                        <button class="dish__check">
+                            <i class="fas fa-check-circle"></i>
+                        </button>
             </article>
 
-            <article class="dish">
+            <article class="dish slide-2">
                 <div class="dish__desc">
                     <h4 class="dish__title">Langouste rôtie</h4> 
                     <p class="dish__subtitle">Et ses légumes de saison</p>
                 </div>
-                <div class="dish__price">35€</div>
-                    <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+                <p class="dish__price">35€</p>
+                        <button class="dish__check">
+                            <i class="fas fa-check-circle"></i>
+                        </button>
             </article>
 
-            <article class="dish">
+            <article class="dish slide-3">
                 <div class="dish__desc">
                     <h4 class="dish__title">Côte de boeuf angus</h4> 
                     <p class="dish__subtitle">Et sa purée de panais</p>
                 </div>
-                <div class="dish__price">44€</div>
-                    <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+                <p class="dish__price">44€</p>
+                        <button class="dish__check">
+                            <i class="fas fa-check-circle"></i>
+                        </button>
             </article>
         </section>
 
         <section class="step">
             <h3 class="step__title">Desserts</h3>
-            <article class="dish">
+            <article class="dish slide-1">
                 <div class="dish__desc">
                     <h4 class="dish__title">Farandole des desserts</h4> 
                     <p class="dish__subtitle">Du chef</p>
                 </div>
-                <div class="dish__price">18€</div>
-                    <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+                <p class="dish__price">18€</p>
+                        <button class="dish__check">
+                            <i class="fas fa-check-circle"></i>
+                        </button>
             </article>
-            <article class="dish">
+            <article class="dish slide-2">
                 <div class="dish__desc">
                 <h4 class="dish__title">Crème brûlée</h4> 
                 <p class="dish__subtitle">Revisitée</p>
             </div>
-                <div class="dish__price">22€</div>
-                <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+            <p class="dish__price">22€</p>
+            <button class="dish__check">
+                <i class="fas fa-check-circle"></i>
+            </button>
             </article>
-            <article class="dish">
+            <article class="dish slide-3">
                 <div class="dish__desc">
                 <h4 class="dish__title">Tiramisu</h4> 
                 <p class="dish__subtitle">À la noisette</p>
             </div>
-                <div class="dish__price">23€</div>
-                    <!-- <div class="check">
-                        <span><i class="fas fa-check-circle fa-2x"></i></span>
-                    </div>  -->
+            <p class="dish__price">23€</p>
+            <button class="dish__check">
+                <i class="fas fa-check-circle"></i>
+            </button>
             </article>
         </section>
+    </div>
+    <div class="commander">
+        <button class="commander__btn">Commander</button>
     </div>
 </main>
 
@@ -172,6 +175,6 @@
         </ul>
     </div>
 </footer>
-
+    </div>
     </body>
     </html>
